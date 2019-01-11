@@ -1,5 +1,33 @@
 @charset "UTF-8";
 
+header{
+    background: #120280;
+    display: flex;
+    padding: 60px 20px;
+    position: fixed;
+    top:0px;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 999;
+}
+
+body{
+    padding-top: 100px;
+}
+
+.main{
+    margin: 100px 0 0 0;
+}
+
+.site-header{
+    background: #fff;
+    display: flex;
+    padding: 60px 20px;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .box1 {
     position: relative;
     margin: 2em 0;
