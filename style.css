@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 header{
-    background: #120280;
+    background: #cccccc;
     display: flex;
     padding: 60px 20px;
     position: fixed;
@@ -12,7 +12,11 @@ header{
 }
 
 body{
-    padding-top: 100px;
+    /*padding-top: 100px;*/
+}
+
+a{
+    text-decoration: none;
 }
 
 .main{
