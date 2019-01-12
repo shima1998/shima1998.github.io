@@ -84,10 +84,14 @@ a{
 
 .image_left{
     float: left;
-    margin: 0px 50px 0px 0px;
+    margin: 0px 25px 0px 0px;
 }
 
 .image_right{
     float: right;
     margin: 0px 0px 0px 50px;
+}
+
+.image_center{
+    text-align: center;
 }
