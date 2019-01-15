@@ -110,6 +110,6 @@ a{
 .side_by_side p{
     display:inline-block;
     width: max-content;
-    padding: 10px;
+    padding: 0px;
     vertical-align:top; /*縦方向の揃え位置を指定*/
 }
