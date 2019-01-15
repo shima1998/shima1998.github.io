@@ -13,7 +13,10 @@ header{
 
 body{
     /*padding-top: 100px;*/
+    font-family: "小塚ゴシックProH", "MS Pゴシック";
 }
+
+
 
 a{
     text-decoration: none;
@@ -92,6 +95,21 @@ a{
     margin: 0px 0px 0px 50px;
 }
 
+.image_bottom{
+    text-align: bottom;
+}
+
 .image_center{
     text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.side_by_side p{
+    display:inline-block;
+    width: max-content;
+    padding: 10px;
+    vertical-align:top; /*縦方向の揃え位置を指定*/
 }
