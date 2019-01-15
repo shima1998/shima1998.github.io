@@ -75,14 +75,14 @@ a{
     padding: 0;
 }
 
-.half_image *{
+.half_image p{
     width: 50%;
     height: 50%;
 }
 
-.quarter_image *{
-    width: 25%;
-    height: 25%;
+.quarter_image {
+    width: 20%;
+    height: 20%;
 }
 
 .image_left{
@@ -112,4 +112,11 @@ a{
     width: max-content;
     padding: 0px;
     vertical-align:top; /*縦方向の揃え位置を指定*/
+}
+
+.side_by_side .quarter_image p{
+    display:inline-block;
+    width: max-content;
+    padding: 0px;
+    vertical-align:top;
 }
