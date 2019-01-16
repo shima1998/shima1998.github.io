@@ -1,110 +1,127 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- IE対策 -->
-        <meta name="viewport" content="width=360,initial-scale=1"><!-- レスポンシブ対策 -->
-        <meta name="format-detection" content="telephone=no"><!-- 電話番号自動リンクの無効 -->
-        <link rel="stylesheet" href="style.css"><!-- CSSのインポート -->
 
-        
-        <title>
-            Workoup！
-        </title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- IE対策 -->
+    <meta name="viewport" content="width=360,initial-scale=1"><!-- レスポンシブ対策 -->
+    <meta name="format-detection" content="telephone=no"><!-- 電話番号自動リンクの無効 -->
+    <link rel="stylesheet" href="style.css"><!-- CSSのインポート -->
 
-    </head>
-    <!--
-    <header>
-            <p>Workoup!</p>
-    </header>
-    -->
-    <body>
-        <div>
-            <h1>Workoup！</h1>
-            <div class="box1">
-            <span class="box-title">TOPIC</span>
-            <ul>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Preview">Preview</a></li>
-                <li>目標金額</li>
-            </ul>
-            </div>
-            <div class="box2">
-                <p><h1 id="About">About</h1></p>
-            </div>
-            <div class="quarter_image">
-                <img class="image_center" src="images/muscle1.jpg" alt="筋肉達磨"><br>
-                <font size="4">
-                一人でも継続的に筋トレを行える環境づくりを支援するアプリです。
-                3DCGで作成されたインストラクターが一緒に筋トレをしてくれます。<br>
-                また、声掛けによるモチベーションの維持に努めます。
-                3DCGを用いることで、正しい筋トレの方法について学ぶことができます。<br>
-                筋トレのメニューが組まれており、自然とインターバルトレーニングを行うことができます。
-                筋トレに応じてインストラクターが成長するので、努力を視覚的に感じることができます。<br clear="left">
-            </font>
-            </div>
-            <div class="box2">
-                <p><h1 id="Preview">Preview</h1></p>
-            </div>
-            <div class="side_by_side">
-                
-                <center>
-                    <div class="quarter_image">
-                        <p class="bold"><font size="5">1.</font></p>
-                        <img src="images/tips1.jpg" hspace="10" alt="tips1">
-                        <p class="bold"><font size="5">2.</font></p>
-                        <img src="images/tips2.jpg" hspace="10" alt="tips2">
-                        <p class="bold"><font size="5">3.</font></p>
-                        <img src="images/tips3.jpg" hspace="10" alt="tips3"> 
-                    </div>
-                </center>
 
-                <p>
-                    <ol class="bold">
-                        <font size="5">
-                            <li>
-                                まず、トレーニングで鍛えられる部分が表示されます。
-                            </li>
-                            <li>
-                                次に、トレーニングの詳細を映像とともに説明します。
-                            </li>
-                            <li>
-                                映像と音声ガイドに従ってトレーニングを開始します。
-                            </li>
-                        </font>
-                    </ol>
-                </p>
+    <title>
+        Workoup！
+    </title>
 
-                <center>
-                    <div class="quarter_image">
-                        <video src="video/Day1.mp4" style="margin: 20px" controls><!-- この書き方イヤ -->
-                            <p>動画を再生するにはvideoタグをサポートしたブラウザが必要です。</p>
-                        </video>
-                    </div>
-                    <br><font class="bold" color="red">※音が出ます。ご注意ください。</font>
-                </center>
+</head>
 
-                <p>
-                    アプリのトレーニング画面です。<br>
-                    青いゲーム内キャラクターのムービーと、音声ガイドに従ってトレーニングを進めていきます。
-                </p>
+<header class="site_header">
+    <div class="inner list_flex">
+        <ul class="list_flex">
+            <li class="list_header_margin"><a href="#About">About</a></li>
+            <li class="list_header_margin"><a href="#Preview">Preview</a></li>
+            <li class="list_header_margin"><a href="#money">Money</a></li>
+        </ul>
+    </div>
+</header>
 
-                    
-            </div>
-            <div class="box2">
-                    <p><h1>目標金額</h1></p>
-            </div>
-            <div class="quarter_image">
-                <img src="images/muscle1.jpg" alt="筋肉達磨">
-                    <br>画像を配置<br>
-                    <p>
-                        多分回り込む<br>
-                        回り込みました<br>
-                        画像サイズが大きいので要調整<br>
-                        もうちょっとかっこよくしたい<br>
-                    </p>
-            </div>
-        </div>
-    
-    </body>
+
+<body class="main">
+    <!--<h1>Workoup！</h1>
+    <div class="box1">
+        <span class="box-title">TOPIC</span>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Preview">Preview</a></li>
+            <li><a href="#money">目標金額</a></li>
+        </ul>
+    </div>-->
+
+    <div>
+        <p>
+            ここは筋肉トレーニングアプリ「Workoup!」のWebページです。
+        </p>
+    </div>
+
+    <div class="box2">
+        <p>
+            <h1 id="About">About</h1>
+        </p>
+    </div>
+    <div>
+        <p class="center">
+            <img class="quarter_image" src="images/muscle1.jpg" alt="筋肉達磨">
+        </p>
+        <p　class="inner">
+            一人でも継続的に筋トレを行える環境づくりを支援するアプリです。
+            3DCGで作成されたインストラクターが一緒に筋トレをしてくれます。<br>
+            また、声掛けによるモチベーションの維持に努めます。
+            3DCGを用いることで、正しい筋トレの方法について学ぶことができます。<br>
+            筋トレのメニューが組まれており、自然とインターバルトレーニングを行うことができます。
+            筋トレに応じてインストラクターが成長するので、努力を視覚的に感じることができます。<br clear="left">
+        </p>
+    </div>
+    <div class="box2">
+        <p>
+            <h1 id="Preview">Preview</h1>
+        </p>
+    </div>
+
+    <div class="center">
+        <img src="images/tips1.jpg" alt="tips1">
+        <img src="images/tips2.jpg" alt="tips2">
+        <img src="images/tips3.jpg" alt="tips3">
+    </div>
+
+    <p>
+        <ol>
+            <li>
+                まず、トレーニングで鍛えられる部分が表示されます。
+            </li>
+            <li>
+                次に、トレーニングの詳細を映像とともに説明します。
+            </li>
+            <li>
+                映像と音声ガイドに従ってトレーニングを開始します。
+            </li>
+        </ol>
+    </p>
+
+
+    <div class="center">
+        <video src="video/Day1.mp4" class="image_30" controls>
+            <p>動画を再生するにはvideoタグをサポートしたブラウザが必要です。</p>
+        </video>
+        <p class="color_red">※音が出ます。ご注意ください。</p>
+    </div>
+    <br>
+
+
+
+    <p>
+        アプリのトレーニング画面です。<br>
+        青いゲーム内キャラクターのムービーと、音声ガイドに従ってトレーニングを進めていきます。
+    </p>
+
+
+    </div>
+    <div class="box2">
+        <p>
+            <h1 id="money">目標金額</h1>
+        </p>
+    </div>
+    <div>
+        <img src="images/muscle1.jpg" class="quarter_image" alt="筋肉達磨">
+        <br>画像を配置<br>
+        <p>
+            多分回り込む<br>
+            回り込みました<br>
+            画像サイズが大きいので要調整<br>
+            もうちょっとかっこよくしたい<br>
+        </p>
+    </div>
+
+
+</body>
+
 </html>
