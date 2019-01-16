@@ -13,7 +13,7 @@ header{
 
 body{
     font-family: "小塚ゴシックProH", "MS Pゴシック", "ヒラギノ角ゴ ProN W3";
-    background-color: white;
+    background-color: #ffffff;
 }
 
 div{
@@ -55,7 +55,19 @@ ul{
 /*クラスセレクタ*/
 
 div.margin_top{
-    margin-top: 100px;
+    margin-top: 70px;
+}
+
+div.margin_half{
+    margin-top: 35px;
+}
+
+p.block_center{
+    width: 80%;
+    margin: 0 auto;
+    color: #555555;
+    font-weight: bold;
+    text-align: left;
 }
 
 p.center{
@@ -80,7 +92,7 @@ p.preview_image{
 }
 
 /*画像関連*/
-.half_image p{
+.half_image{
     width: 50%;
     height: 50%;
 }
@@ -115,6 +127,10 @@ p.preview_image{
 }
 
 /*文章関連*/
+.under {
+    background: linear-gradient(transparent 50%, yellow 50%);
+    }
+
 .list_flex{
     display: flex;
 }
@@ -239,8 +255,12 @@ p.preview_image{
 
 
 
-.bold{
-    font-weight: bold;
+.size_50{
+    font-size: 40px;
+}
+
+.size_20{
+    font-size: 20px;
 }
 
 .side_by_side p{
