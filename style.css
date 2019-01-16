@@ -92,6 +92,16 @@ p.preview_image{
 }
 
 /*画像関連*/
+figure.left{
+    text-align: left;
+    padding-right: 20px;
+}
+
+.image_top{
+    vertical-align: top;
+    margin: 0 0 0px 70px;
+}
+
 .half_image{
     width: 50%;
     height: 50%;
