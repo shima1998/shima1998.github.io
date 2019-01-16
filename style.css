@@ -16,29 +16,37 @@ body{
     font-family: "小塚ゴシックProH", "MS Pゴシック";
 }
 
+div{
+    width: 80%;
+    margin: 0 auto;
+}
 
 a{
     text-decoration: none;
 }
 
+ul{
+    list-style: none;
+}
+
 ol{
-    font-size: 0.7cm;
+    font-size: 0.5cm;
 }
 
 /*リンク*/
 #About {
     margin-top: -70px; /* 固定ナビの高さ分のネガティブマージン */
-    padding-top: 75px; /* 打ち消し用のパディング */
+    padding-top: 80px; /* 打ち消し用のパディング */
     }
 
 #Preview {
     margin-top: -70px; /* 固定ナビの高さ分のネガティブマージン */
-    padding-top: 75px; /* 打ち消し用のパディング */
+    padding-top: 80px; /* 打ち消し用のパディング */
     }
 
 #money {
     margin-top: -70px; /* 固定ナビの高さ分のネガティブマージン */
-    padding-top: 75px; /* 打ち消し用のパディング */
+    padding-top: 80px; /* 打ち消し用のパディング */
     }
 
 
@@ -186,7 +194,7 @@ p.preview_image{
 
 .box2 {
     padding: 0.5em 1em;
-    margin: 2em 0;
+    /*margin: 2em 0;*/
     color: #2c2c2f;
     background: #cde4ff;/*背景色*/
     text-align: center;
