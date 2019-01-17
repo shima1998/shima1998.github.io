@@ -97,6 +97,40 @@ figure.left{
     padding-right: 20px;
 }
 
+.image_text_top{
+    vertical-align: top;
+}
+
+.image_text_middle{
+    vertical-align: middle;
+}
+
+.image_150{
+    width: 150%;
+    height: 150%;
+}
+
+.image_90{
+    width: 90%;
+    height: 90%;
+}
+
+.image_80{
+    width: 80%;
+    height: 80%;
+}
+
+.image_25{
+    width: 25%;
+    height: 25%;
+}
+
+.image_20{
+    width: 20%;
+    height: 20%;
+}
+
+
 .image_top{
     vertical-align: top;
     margin: 0 0 0px 70px;
@@ -137,6 +171,9 @@ figure.left{
 }
 
 /*文章関連*/
+
+
+
 .under {
     background: linear-gradient(transparent 50%, yellow 50%);
     }
@@ -286,7 +323,7 @@ figure.left{
 }
 
 .main{
-    margin: 45px 0 0 0;
+    margin: 80px 0 0 0;
 }
 
 .site_header{
@@ -311,9 +348,7 @@ figure.left{
 
 .side_by_side p{
     display:inline-block;
-    width: max-content;
-    padding: 0px;
-    vertical-align:top; /*縦方向の揃え位置を指定*/
+    vertical-align:middle; /*縦方向の揃え位置を指定*/
 }
 
 .side_by_side .quarter_image p{
